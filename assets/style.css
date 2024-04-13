@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.NavBar{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    z-index: 10;
+}
+.NavBar ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    width: 30%;
+    justify-content: space-around;
+    padding: 8px;
+}
+.NavBar li,.NavBar p{
+    color: rgb(220, 220, 6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.NavBar p{
+    font-size: 125%;
+}
+.NavBar li{
+    font-size: x-small;
+    padding: 5px;
+}
+.d1 ,.d4,.d6,.d7,.d9{
+    background-color: rgb(220, 220, 6);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.img1{
+    width: 20%;
+    border-radius: 50%;
+    margin: 30px;
+    margin-top: 60px;  
+}
+.d1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+    white-space: nowrap;
+}
+.img2,.img5{
+    width: 10%;
+    margin: 30px;
+}
+.img3{
+    width: 8%;
+    margin: 30px;
+    fill: gold;
+}
+.d2,.d10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    position: relative;
+    margin-top: 1%;
+}
+.d2::before{
+    content: "";
+    width:15%;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    left: 28%;
+    position: absolute;
+}
+.d2::after{
+    content: "";
+    width:15%;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    right: 28%;
+    position: absolute;
+}
+.d1 p{
+    color: rgb(0, 0, 0);
+    width: min-content;
+    white-space: nowrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2% 0 6% 0;
+}
+.d4{
+    background-color: white;
+    position: relative;
+}
+.Part{
+    height: auto;
+}
+.d3{
+    margin-top: 20px;
+}
+.d3 h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 55px;
+
+}
+.d4::before{
+    content: "";
+    width:12%;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    left: 33%;
+    position: absolute;
+
+}
+.d4::after{
+    content: "";
+    width:12%;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    right: 33%;
+    position: absolute;
+
+}
+.d5{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.d5 img{
+    width: 100px;
+    display: flex;
+    border-radius: 50%;
+    margin: 5px;
+}
+.Html,.Css,.JavaScript,.Git,.GitHub,.Search{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 5px;
+    border-radius: 5%;
+}
+.Html,.JavaScript,.GitHub{
+    border: 2px solid black;
+    background-color: rgb(220, 220, 6);
+}
+.Css,.Git,.Search{
+    border: 2px solid rgb(220, 220, 6);
+    background-color: black;
+}
+.d7::before{
+    content: "";
+    width:12%;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    left: 33%;
+    position: absolute;
+
+}
+.d7::after{
+    content: "";
+    width:12%;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    right: 33%;
+    position: absolute;
+}
+.img4{
+    width: 8%;
+    margin: 30px;
+    fill: gold;
+}
+.d6 h2,.d9 h2{
+    margin: 50px 0 30px 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.d7{ 
+    position:relative;
+    width: 100%;
+}
+.d8 p{
+    width: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+.d8{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.but{
+    background-color: rgb(220, 220, 6) ;
+    border:2px solid black ;
+    border-radius: 10%;
+    margin: 40px 0;
+}
+.but span{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.but img{
+    width: 20px; 
+    margin-right: 2px;
+}
+.d9{
+    background-color: white;
+}
+.d10::before{
+    content: "";
+    width:15%;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    left: 28%;
+    position: absolute;
+}
+.d10::after{
+    content: "";
+    width:15%;
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    right: 28%;
+    position: absolute;
+}
+.d11{
+    width: 60%;
+}
+.d11 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.415);
+}
+.d11 input,textarea{
+    width: 100%;
+    border-color: black;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    margin-bottom: 30px;
+}
+textarea{
+    height: auto;
+}
+.but2{
+    background-color: rgb(220, 220, 6);
+    padding: 5px 15px;
+    border-radius: 10%;
+    margin-bottom: 50px;
+}
+button{
+    cursor: pointer;
+}
+.fot{
+    background-color: rgb(46 45 45);
+    display: flex;
+    justify-content: space-around;
+}
+.d12,.d13,.d14{
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    margin: 35px 0 60px 0;
+}
+.d12 h2,.d13 h2,.d14 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(220, 220, 6);
+    display: flex;
+    margin:0 0 25px 0;
+    white-space: nowrap;
+}
+.d12 p,.d14 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(220, 220, 6); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(220, 220, 6);
+    text-align: center;
+}
+.last-d{
+    background-color: black;
+}
+.last-d p{
+    color:rgb(220, 220, 6);
+    text-align: center;
+    padding: 3px 0;
+}
+a{
+    color: rgb(255, 47, 47);
+
+}
+.icon{
+    display: flex;
+}
+.icon img{
+    width: 30px;
+    background-color:yellow;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+@media (max-width:728px){
+    .d12,.d14{
+        visibility: hidden;
+        margin: 25px 0;
+    }
+    .d13{
+        margin: 25px 0;
+    }
+}
+@media (max-width:475px){
+    .d1 h1{
+        font-size: 200%;
+    }
+    .d13{
+        margin: 10px 0;
+    }
+    .d8{
+        display: contents;
+    }
+    .d8 p{
+        width: 70%;
+        margin-bottom: 25px;
+    }
+}
